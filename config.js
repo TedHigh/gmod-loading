@@ -13,7 +13,7 @@ var l_serverImage = "http://i.picresize.com/images/2015/07/23/YeSBP.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Wonderland Role Play";
+var l_serverName = "TESTING";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
