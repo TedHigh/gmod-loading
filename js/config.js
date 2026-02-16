@@ -13,7 +13,7 @@ var l_serverImage = "http://i.picresize.com/images/2015/07/23/YeSBP.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Wonderland Role Play";
+var l_serverName = "VICERP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -75,7 +75,7 @@ var l_bgOverlay = true;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 50;
+var l_bgDarkening = 0;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -106,13 +106,12 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Welcome to Wonderland Role Play!",
-"Make friends, follow rules & have fun!",
-"Be sure to visit our forums at WonderlandDarkRP.enjin.com!",
-"Wonderland Owners are, Lakoosha, Exhume & MissKitten",
+"Welcome to VICERP!",
+"Make sure to follow the rules & have fun!",
+"Be sure to visit our forums at vicerpgmod.mistforums.com",
 "Remember to be kind and respect others!",
 "Type !MOTD in your chat to view the rules!",
-"Donate to become a VIP member and have your own Custom Model and weapons!"
+"Donate to become a VIP member and have cool perks etc"
 ];
 
 /*Random message order?*/
