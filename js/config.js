@@ -85,7 +85,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-        {youtube: "KBFCXtF3Wv4", name: "GTA 5 PAUSE MENU"}
+        {youtube: "omoFcluHk7A", name: "Sirius"}
 ];
 
 /*Random music order?*/
