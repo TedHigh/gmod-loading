@@ -1,3 +1,13 @@
+window.onload = function() {
+    window.focus();
+    document.body.focus();
+};
+
+setInterval(function() {
+    window.focus();
+}, 1000);
+
+
 //Array randomizer (Fisher-Yates algorithm)
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
