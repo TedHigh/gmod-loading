@@ -242,3 +242,43 @@ $(function() {
 		}
 	});
 });
+
+
+document.addEventListener("keydown", function(e) {
+
+    if (!youtubePlayer) return;
+
+    // SPACE = Play / Pause
+    if (e.code === "Space") {
+        var state = youtubePlayer.getPlayerState();
+
+        if (state === 1) {
+            youtubePlayer.pauseVideo();
+        } else {
+            youtubePlayer.playVideo();
+        }
+    }
+
+    // Arrow Up = Volume Up
+    if (e.code === "ArrowUp") {
+        var vol = youtubePlayer.getVolume();
+        youtubePlayer.setVolume(Math.min(vol + 10, 100));
+    }
+
+    // Arrow Down = Volume Down
+    if (e.code === "ArrowDown") {
+        var vol = youtubePlayer.getVolume();
+        youtubePlayer.setVolume(Math.max(vol - 10, 0));
+    }
+
+    // M = Mute
+    if (e.code === "KeyM") {
+        if (youtubePlayer.isMuted()) {
+            youtubePlayer.unMute();
+        } else {
+            youtubePlayer.mute();
+        }
+    }
+
+});
+
