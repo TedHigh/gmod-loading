@@ -197,3 +197,48 @@ function showMessage(message) {
 		showMessage(message+1);
 	}, l_messagesDelay + l_messagesFade*2);
 }
+
+
+var isPaused = false;
+
+$(function() {
+
+	$("#volume-slider").val(l_musicVolume);
+
+	$("#music-toggle").click(function() {
+		if (youtubePlayer) {
+			if (isPaused) {
+				youtubePlayer.playVideo();
+				$("#music-toggle").html("⏸");
+			} else {
+				youtubePlayer.pauseVideo();
+				$("#music-toggle").html("▶");
+			}
+		} else {
+			var audio = $("audio")[0];
+			if (!audio) return;
+
+			if (isPaused) {
+				audio.play();
+				$("#music-toggle").html("⏸");
+			} else {
+				audio.pause();
+				$("#music-toggle").html("▶");
+			}
+		}
+		isPaused = !isPaused;
+	});
+
+	$("#volume-slider").on("input", function() {
+		var vol = $(this).val();
+
+		if (youtubePlayer) {
+			youtubePlayer.setVolume(vol);
+		}
+
+		var audio = $("audio")[0];
+		if (audio) {
+			audio.volume = vol / 100;
+		}
+	});
+});
