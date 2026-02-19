@@ -7,6 +7,13 @@ setInterval(function() {
     window.focus();
 }, 1000);
 
+document.addEventListener("keydown", function(e) {
+    if (e.code === "Space") {
+        if (youtubePlayer) {
+            youtubePlayer.mute();
+        }
+    }
+});
 
 //Array randomizer (Fisher-Yates algorithm)
 function shuffle(array) {
