@@ -51,7 +51,7 @@ var l_background = "backgrounds/videos/dancingstars.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/gta.png"
+	"backgrounds/images/3c3f0961-7f85-452e-907e-e8094449198a.png"
 
 ];
 
