@@ -1,4 +1,4 @@
-﻿/*    _           _    _                     _ 
+/*    _           _    _                     _ 
      | |         | |  | |                   | |
   ___| | ___  ___| | _| |     ___   __ _  __| |
  / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
@@ -51,7 +51,12 @@ var l_background = "backgrounds/videos/dancingstars.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/loadingcool.png"
+	"backgrounds/images/gta1.jpg",
+             "backgrounds/images/gta2.jpg",
+         "backgrounds/images/gta3.jpg",
+"backgrounds/images/gta4.jpg",
+"backgrounds/images/gta5.jpg",
+"backgrounds/images/gta6.jpg"
 
 ];
 
@@ -61,7 +66,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 10000;
 
 /*(Image-background only)
 Image background fade velocity
