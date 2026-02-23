@@ -56,7 +56,7 @@ var l_bgImages = [
          "backgrounds/images/gta3.jpg",
 "backgrounds/images/gta4.jpg",
 "backgrounds/images/gta5.jpg",
-	"backgrounds/images/gta10.jpg",
+	"backgrounds/images/gta10.png",
 "backgrounds/images/gta6.jpg"
 
 ];
