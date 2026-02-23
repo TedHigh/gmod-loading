@@ -91,12 +91,12 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
     {ogg: "songs/gtaiv.ogg", name: "gtaiv"},
-    {ogg: "songs/Sirius.ogg", name: "noending"},
-    {ogg: "songs/song3.ogg", name: "Sirius"}
+    {ogg: "songs/Sirius.ogg", name: "siruis"},
+    {ogg: "songs/noending.ogg", name: "noending"}
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
