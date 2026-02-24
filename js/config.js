@@ -113,6 +113,7 @@ var l_messages = [
 "Make friends, follow the rules & have fun!",
 "Be sure to visit our forums at vicerpgmod.mistforums.com",
 "Remember to be kind and respect others!",
+"FastDL is being worked on loading time will be faster soon!",
 "Type !MOTD in your chat to view the rules!",
 "Donate to become a VIP member and have really cool perks etc!"
 ];
