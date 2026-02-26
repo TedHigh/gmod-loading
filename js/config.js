@@ -52,7 +52,7 @@ Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
 	"backgrounds/images/gta1.jpg",
-	"backgrounds/images/vicerp.png",
+	"backgrounds/images/test.png",
              "backgrounds/images/gta2.jpg",
          "backgrounds/images/gta3.jpg",
 "backgrounds/images/gta4.jpg",
