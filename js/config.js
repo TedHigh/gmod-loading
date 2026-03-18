@@ -91,9 +91,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-    {ogg: "songs/gtaiv.ogg", name: "gtaiv"},
-    {ogg: "songs/Sirius.ogg", name: "siruis"},
-    {ogg: "songs/noending.ogg", name: "noending"}
+    {ogg: "songs/gtaiv.ogg", name: "gtaiv"}
 ];
 
 /*Random music order?*/
