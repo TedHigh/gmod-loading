@@ -101,11 +101,10 @@ var l_messagesEnabled = true;
 /*Enter your custom messages below*/
 var l_messages = [
 "Welcome to VICERP!",
-"Please bear with us — the first load can take up to 10–15 minutes.",
+"Please bear with us — the first load can take up to 5–10 minutes.",
 "Make friends, follow the rules & have fun!",
 "Be sure to visit our forums at vicerpgmod.mistforums.com",
 "Remember to be kind and respect others!",
-"FastDL is being worked on loading time will be faster soon!",
 "Type !MOTD in your chat to view the rules!",
 "Donate to become a VIP member and have really cool perks etc!"
 ];
