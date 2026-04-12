@@ -61,7 +61,11 @@ var l_bgImages = [
 	"backgrounds/images/ss8.png",
 	"backgrounds/images/ss9.png",
 	"backgrounds/images/ss10.png",
-	"backgrounds/images/ss11.png"
+	"backgrounds/images/ss11.png",
+	"backgrounds/images/ss12.png",
+	"backgrounds/images/ss13.png",
+	"backgrounds/images/ss14.jpg",
+	"backgrounds/images/ss15.jpg"
 	
 
 ];
